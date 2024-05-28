@@ -69,6 +69,7 @@ function closeNavBar(){
 
     collapse.toggle()
 }}
+
+
+
     
-document.getElementById("aboutlead").addEventListener("click", closeNavBar());
-document.getElementById("contactlead").addEventListener("click", closeNavBar());
