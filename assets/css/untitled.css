@@ -28,7 +28,7 @@ a:hover {
 }
 
 a:focus, a:hover, a:active {
-  background-color: white !important;
+  /*background-color: white !important;*/
 }
 
 .nav-link:hover, .nav-link:focus {

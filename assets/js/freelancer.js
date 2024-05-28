@@ -56,3 +56,19 @@
   }
 
 })(); // End of use strict
+
+function closeNavBar(){
+    console.log("CLOSING")
+    var navbarCollapse = mainNav.querySelector('.navbar-collapse');
+    
+    if (navbarCollapse) {
+      
+    var collapse = new bootstrap.Collapse(navbarCollapse, {
+        toggle: false
+    });
+
+    collapse.toggle()
+}}
+    
+document.getElementById("aboutlead").addEventListener("click", closeNavBar());
+document.getElementById("contactlead").addEventListener("click", closeNavBar());
