@@ -72,4 +72,4 @@ function closeNavBar(){
 
 
 
-    
+collapse.toggle()
